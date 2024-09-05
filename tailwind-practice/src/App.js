@@ -1,9 +1,16 @@
 import './App.css';
+import Footer from './component/Footer';
+import Hero from './component/Hero';
+import Navbar from './component/Navbar';
+import TopBar from './component/TopBar';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-center text-3xl font-bold underline">Hello world!</h1>
+    <div className="bg-gray-50">
+      <TopBar />
+      <Navbar />
+      <Hero />
+      <Footer />
     </div>
   );
 }
