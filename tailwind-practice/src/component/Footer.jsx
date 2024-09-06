@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../assets/images/logo.png';
 import { ReactComponent as Logo } from '../assets/svg/logo.svg';
 
 export default function Footer() {
@@ -31,7 +30,7 @@ export default function Footer() {
                 with new challenges, featured solutions, selected articles and
                 our latest news
               </div>
-              <div className="flex flex-col items-center w-80 sm:flex-row sm:w-full">
+              <div className="flex flex-col items-center w-72 sm:flex-row sm:w-full">
                 <input
                   type="text"
                   class="border h-10 border-gray-400 rounded-sm p-2 focus:outline-dashed focus:outline-blue-500 w-full mt-2 mx-1 bg-transparent"

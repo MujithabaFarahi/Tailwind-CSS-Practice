@@ -21,9 +21,9 @@ export default function Hero() {
             </p>
           </div>
           <div className="flex justify-center md:justify-start">
-            <button className="flex items-center px-6 py-2 mt-10 text-white bg-rose-600 rounded-3xl hover:bg-rose-700">
+            <button className="flex items-center px-6 py-2 mt-10 text-white barlow-bold-italic bg-rose-600 rounded-3xl hover:bg-rose-700">
               Login with GitHub
-              <i class="fab fa-github ml-3"> </i>
+              <i class="fab fa-github ml-3 text-lg"> </i>
             </button>
           </div>
 
