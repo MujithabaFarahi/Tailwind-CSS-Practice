@@ -1,22 +1,23 @@
 import React, { useState } from 'react';
-import logo from '../assets/images/logo.png';
+import { ReactComponent as Logo } from '../assets/svg/logo.svg';
+import { ReactComponent as LogoMoblie } from '../assets/svg/logo-mobile.svg';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="bg-transparent shadow-md">
-      <div className="px-4 mx-auto max-w-screen sm:px-6 lg:px-8">
+      <div className="px-4 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex">
-            <a href="/" className="flex items-center text-2xl font-semibold">
-              <div class="text-blue-500">
-                <img src={logo} alt="Logo" className="w-12"></img>
-              </div>
-              <div className="sm:hidden">Frontend Mentor</div>
-            </a>
-          </div>
-          <div className="items-center hidden space-x-6 md:flex">
+          <a href="/">
+            <div className=" lg:hidden">
+              <LogoMoblie />
+            </div>
+            <div className="hidden lg:flex">
+              <Logo />
+            </div>
+          </a>
+          <div className="items-center hidden space-x-5 md:flex barlow-bold-italic ">
             <a
               href="#learning-paths"
               className="text-gray-700 hover:underline hover:underline-offset-8 hover:text-red-500"
