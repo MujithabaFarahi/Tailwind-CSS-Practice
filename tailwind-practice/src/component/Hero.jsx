@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className="mx-auto my-auto max-w-screen-2xl">
       <div className="flex flex-col mt-10 md:items-center md:justify-center md:flex-row">
-        <div className="p-5 mx-5 mt-10 md:w-3/4 lg:w-5/12">
+        <div className="p-5 mt-10 md:w-3/4 lg:w-5/12">
           <div className="text-center md:text-start">
             <p className="font-serif text-6xl text-customBlue">
               Improve your coding skills by building realistic projects
@@ -28,10 +28,10 @@ export default function Hero() {
           </div>
 
           <div className="flex flex-col items-center justify-center p-4 mt-10 bg-gray-100 rounded-xl sm:flex-row">
-            <div className="w-7/12 sm:w-5/12">
+            <div className="w-10/12 px-3 sm:w-5/12">
               <img src={img2} alt="h-full"></img>
             </div>
-            <div className="sm:w-7/12">
+            <div className="px-3 sm:w-7/12">
               <span className="text-lg text-gray-500 ">Join </span>
               <span className="text-lg font-bold text-customBlue">
                 886,420{' '}
@@ -69,7 +69,7 @@ export default function Hero() {
             <p className="text-gray-500">Web Developer & YouTuber</p>
           </div>
         </div>
-        <div className="max-w-xl p-5 mx-5 my-5 text-lg bg-gray-100 rounded-3xl lg:w-1/2">
+        <div className="max-w-xl p-5 mx-5 text-lg bg-gray-100 rounded-3xl lg:w-1/2">
           <div className="my-3 text-6xl text-center text-gray-200">
             <i class="fa fa-quote-left" aria-hidden="true"></i>
           </div>
