@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Tailwind-CSS-Practice/static/css/main.f97c8ee3.css",
-    "main.js": "/Tailwind-CSS-Practice/static/js/main.0a00c539.js",
+    "main.css": "/Tailwind-CSS-Practice/static/css/main.6cef7358.css",
+    "main.js": "/Tailwind-CSS-Practice/static/js/main.6b9846af.js",
     "static/js/453.22c9628e.chunk.js": "/Tailwind-CSS-Practice/static/js/453.22c9628e.chunk.js",
     "static/media/img6.webp": "/Tailwind-CSS-Practice/static/media/img6.a1e2c9d11c295c8ff038.webp",
     "static/media/img1.webp": "/Tailwind-CSS-Practice/static/media/img1.72aea7f05d324707a97d.webp",
@@ -16,12 +16,12 @@
     "static/media/logo-product-hunt.svg": "/Tailwind-CSS-Practice/static/media/logo-product-hunt.ea302dae66a1d5898f09b4b1e0758942.svg",
     "index.html": "/Tailwind-CSS-Practice/index.html",
     "static/media/logo-mobile.svg": "/Tailwind-CSS-Practice/static/media/logo-mobile.85bd04c489b50d80ec85f663a322c4ef.svg",
-    "main.f97c8ee3.css.map": "/Tailwind-CSS-Practice/static/css/main.f97c8ee3.css.map",
-    "main.0a00c539.js.map": "/Tailwind-CSS-Practice/static/js/main.0a00c539.js.map",
+    "main.6cef7358.css.map": "/Tailwind-CSS-Practice/static/css/main.6cef7358.css.map",
+    "main.6b9846af.js.map": "/Tailwind-CSS-Practice/static/js/main.6b9846af.js.map",
     "453.22c9628e.chunk.js.map": "/Tailwind-CSS-Practice/static/js/453.22c9628e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f97c8ee3.css",
-    "static/js/main.0a00c539.js"
+    "static/css/main.6cef7358.css",
+    "static/js/main.6b9846af.js"
   ]
 }
