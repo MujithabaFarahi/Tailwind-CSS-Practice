@@ -6,8 +6,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-transparent shadow-md">
-      <div className="px-4 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+    <nav className="bg-transparent ">
+      <div className="px-1 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="/">
             <div className=" lg:hidden">
@@ -17,39 +17,39 @@ export default function Navbar() {
               <Logo />
             </div>
           </a>
-          <div className="items-center hidden space-x-5 md:flex barlow-bold-italic ">
+          <div className="items-center hidden space-x-5 text-xs md:flex barlow-bold-italic">
             <a
               href="#learning-paths"
-              className="text-gray-700 hover:underline hover:underline-offset-8 hover:text-red-500"
+              className=" hover:underline hover:underline-offset-8 hover:text-red-500"
             >
-              Learning Paths
+              LEARNING PATHS
             </a>
             <a
               href="#challenges"
-              className="text-gray-700 hover:underline hover:underline-offset-8 hover:text-red-500"
+              className=" hover:underline hover:underline-offset-8 hover:text-red-500"
             >
-              Challenges
+              CHALLENGES
             </a>
             <a
               href="#solutions"
-              className="text-gray-700 hover:underline hover:underline-offset-8 hover:text-red-500"
+              className="hover:underline hover:underline-offset-8 hover:text-red-500"
             >
-              Solutions
+              SOLUTIONS
             </a>
             <a
               href="#articles"
-              className="text-gray-700 hover:underline hover:underline-offset-8 hover:text-red-500"
+              className=" hover:underline hover:underline-offset-8 hover:text-red-500"
             >
-              Articles
+              ARTICLES
             </a>
             <a
               href="#unlock-pro"
-              className="text-gray-700 hover:underline hover:underline-offset-8 hover:text-red-500"
+              className=" hover:underline hover:underline-offset-8 hover:text-red-500"
             >
-              Unlock Pro
+              UNLOCK PRO
             </a>
-            <button className="flex items-center px-6 py-2 text-white bg-black rounded-3xl hover:bg-gray-800">
-              Login with GitHub
+            <button className="flex items-center px-6 py-2 text-white bg-black rounded-3xl hover:bg-gray-800 barlow-bold-italic">
+              LOG IN WITH GITHUB
               <i class="fab fa-github ml-3"> </i>
             </button>
           </div>
@@ -57,7 +57,7 @@ export default function Navbar() {
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
-              className="text-gray-700 hover:text-blue-500 focus:outline-none focus:text-blue-500"
+              className=" hover:text-blue-500 focus:outline-none focus:text-blue-500"
             >
               <svg
                 className="w-6 h-6"
@@ -84,37 +84,37 @@ export default function Navbar() {
         <div className="md:hidden">
           <a
             href="#learning-paths"
-            className="block px-4 py-2 text-gray-700 hover:underline hover:text-red-500"
+            className="block px-4 py-2 hover:underline hover:text-red-500"
           >
-            Learning Paths
+            LEARNING PATHS
           </a>
           <a
             href="#challenges"
-            className="block px-4 py-2 text-gray-700 hover:underline hover:text-red-500"
+            className="block px-4 py-2 hover:underline hover:text-red-500"
           >
-            Challenges
+            CHALLENGES
           </a>
           <a
             href="#solutions"
-            className="block px-4 py-2 text-gray-700 hover:underline hover:text-red-500"
+            className="block px-4 py-2 hover:underline hover:text-red-500"
           >
-            Solutions
+            SOLUTIONS
           </a>
           <a
             href="#articles"
-            className="block px-4 py-2 text-gray-700 hover:underline hover:text-red-500"
+            className="block px-4 py-2 hover:underline hover:text-red-500"
           >
-            Articles
+            ARTICLES
           </a>
           <a
             href="#unlock-pro"
-            className="block px-4 py-2 text-gray-700 hover:underline hover:text-red-500"
+            className="block px-4 py-2 hover:underline hover:text-red-500"
           >
-            Unlock Pro
+            UNLOCK PRO
           </a>
 
           <button className="flex items-center justify-center w-full px-6 py-2 mb-3 text-white bg-black rounded-3xl hover:bg-gray-800">
-            Login with GitHub
+            LOGIN WITH GITHUB
             <i class="fab fa-github ml-3"> </i>
           </button>
         </div>

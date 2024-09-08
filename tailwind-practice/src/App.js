@@ -7,7 +7,7 @@ import TopBar from './component/TopBar';
 
 function App() {
   return (
-    <div className="bg-gray-300">
+    <div className="bg-gray-100">
       <TopBar />
       <Navbar />
       <Hero />

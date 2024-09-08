@@ -10,23 +10,23 @@ import { ReactComponent as ProductHunt } from '../assets/svg/logo-product-hunt.s
 
 export default function Hero2() {
   return (
-    <div className="mx-auto my-5 max-w-screen-2xl">
+    <div className="mx-auto my-5 bg-gray-50">
       <div className="flex flex-col items-center justify-center">
         <div className="py-8 heebo">AS FEATURED ON...</div>
-        <div className="flex flex-col items-center justify-center w-full px-10 gap-y-2 gap-x-2 md:flex-row ">
-          <div className="flex items-center justify-center w-full h-20 px-4 bg-gray-200 border-2 border-gray-400 md:h-28 md:w-80 lg:w-96">
+        <div className="flex flex-col items-center justify-center w-full px-3 gap-y-3 gap-x-3 md:flex-row ">
+          <div className="flex items-center justify-center w-full h-20 px-4 bg-white border-2 border-gray-400 rounded-lg md:h-28 md:w-80 lg:w-96">
             <CSSPractice />
           </div>
-          <div className="flex items-center justify-center w-full h-20 px-4 bg-gray-200 border-2 border-gray-400 md:h-28 md:w-80 lg:w-96 ">
+          <div className="flex items-center justify-center w-full h-20 px-4 bg-white border-2 border-gray-400 rounded-lg md:h-28 md:w-80 lg:w-96 ">
             <StackOverflow />
           </div>
-          <div className="flex items-center justify-center w-full h-20 px-4 bg-gray-200 border-2 border-gray-400 md:h-28 md:w-80 lg:w-96 ">
+          <div className="flex items-center justify-center w-full h-20 px-4 bg-white border-2 border-gray-400 rounded-lg md:h-28 md:w-80 lg:w-96 ">
             <ProductHunt />
           </div>
         </div>
       </div>
       {/*------------------------------- Section 2 -------------------------------*/}
-      <div className="flex flex-col items-center justify-center px-5 py-10 mt-20 bg-gray-200 gap-y-4">
+      <div className="flex flex-col items-center justify-center px-2 py-10 mt-20 bg-gray-200 gap-y-4">
         {/* <div> */}
         <div className="flex flex-col items-center justify-center mb-5 md:flex-row gap-y-4">
           <div className="flex items-center justify-center w-11/12 lg:w-8/12">
