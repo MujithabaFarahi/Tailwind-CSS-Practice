@@ -8,7 +8,7 @@ import TestimonialCard from './TestimonialCard';
 export default function Hero() {
   return (
     <div className="">
-      <div className="flex flex-col items-center justify-start mt-10 md:flex-row gap-y-10 gap-x-5 xl:justify-around ">
+      <div className="flex flex-col items-center justify-start mt-10 overflow-hidden md:flex-row gap-y-10 gap-x-5 xl:justify-center">
         <div className=" md:w-[500px]  p-2   md:flex-shrink-0 md:ml-3  lg:w-[540px]">
           <div className="text-center md:text-start">
             <p className="font-serif text-5xl text-customBlue font-barlow">
