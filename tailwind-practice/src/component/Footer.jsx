@@ -4,7 +4,7 @@ import { ReactComponent as Logo } from '../assets/svg/logo.svg';
 export default function Footer() {
   return (
     <div>
-      <footer class="bg-transparent text-black py-6 w-full">
+      <footer class="bg-transparent text-black py-6 px-8 w-full">
         <div class="container mx-auto px-4">
           <div className="flex flex-col items-center justify-between w-full space-x-2 sm:flex-row">
             <Logo className="my-1" />
