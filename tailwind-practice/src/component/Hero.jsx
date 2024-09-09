@@ -11,12 +11,12 @@ export default function Hero() {
       <div className="flex flex-col items-center justify-start mt-10 md:flex-row gap-y-10 gap-x-5 xl:justify-around ">
         <div className=" md:w-[500px]  p-2   md:flex-shrink-0 md:ml-3  lg:w-[540px]">
           <div className="text-center md:text-start">
-            <p className="font-serif text-5xl text-customBlue ">
+            <p className="font-serif text-5xl text-customBlue font-barlow">
               Improve your coding skills by building realistic projects
             </p>
           </div>
           <div className="mt-10 lg:text-lg">
-            <p className="text-lg text-center text-gray-500 md:text-justify">
+            <p className="text-lg text-center text-gray-500 md:text-justify heebo">
               Our professionally designed challenges help you gain hands-on
               experience writing HTML, CSS, and JavaScript. We create the
               designs so you can focus on the code and see your skills
@@ -30,7 +30,7 @@ export default function Hero() {
             </button>
           </div>
 
-          <div className="flex flex-col items-center justify-center p-4 mt-10 bg-white rounded-xl sm:flex-row">
+          <div className="flex flex-col items-center justify-center p-4 mt-10 bg-white rounded-xl sm:flex-row heebo">
             <div className="w-6/12 px-3 sm:w-5/12">
               <img src={img2} alt="h-full"></img>
             </div>
@@ -53,7 +53,7 @@ export default function Hero() {
           ></img>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center lg:flex-row ">
+      <div className="flex flex-col items-center justify-center my-12 lg:flex-row">
         <TestimonialCard
           name="Kevin Powell"
           role="Web Developer & YouTuber"

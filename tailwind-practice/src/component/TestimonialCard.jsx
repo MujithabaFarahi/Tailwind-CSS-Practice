@@ -2,7 +2,7 @@ import React from 'react';
 
 const TestimonialCard = ({ name, role, img, message }) => {
   return (
-    <div className="max-w-xl p-8 mx-5 my-12 text-lg bg-white md:my-20 rounded-3xl lg:w-1/2">
+    <div className="max-w-xl p-8 mx-5 my-3 text-lg bg-white md:my-20 rounded-3xl lg:w-1/2 heebo">
       <div className="my-3 text-6xl text-center text-gray-200">
         <i className="fa fa-quote-left" aria-hidden="true"></i>
       </div>

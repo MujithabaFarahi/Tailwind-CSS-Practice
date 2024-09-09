@@ -12,7 +12,7 @@ export default function Hero2() {
   return (
     <div className="mx-auto my-5 bg-gray-50">
       <div className="flex flex-col items-center justify-center">
-        <div className="py-8 heebo">AS FEATURED ON...</div>
+        <div className="py-8 font-extrabold heebo">AS FEATURED ON...</div>
         <div className="flex flex-col items-center justify-center w-full px-3 gap-y-3 gap-x-3 md:flex-row ">
           <div className="flex items-center justify-center w-full h-20 px-4 bg-white border-2 border-gray-400 rounded-lg md:h-28 md:w-80 lg:w-96">
             <CSSPractice />
@@ -26,9 +26,9 @@ export default function Hero2() {
         </div>
       </div>
       {/*------------------------------- Section 2 -------------------------------*/}
-      <div className="flex flex-col items-center justify-center px-2 py-10 mt-20 bg-gray-200 gap-y-4">
+      <div className="flex flex-col items-center justify-center px-2 py-10 mt-20 bg-gray-200 gap-y-10 ">
         {/* <div> */}
-        <div className="flex flex-col items-center justify-center mb-5 md:flex-row gap-y-4">
+        <div className="flex flex-col items-center justify-center mb-5 md:flex-row ">
           <div className="flex items-center justify-center w-11/12 lg:w-8/12">
             <img src={img3} alt="" className="w-11/12 max-w-lg md:w-10/12" />
           </div>
@@ -47,7 +47,7 @@ export default function Hero2() {
           </div>
         </div>
         {/* .............................. */}
-        <div className="flex flex-col items-center justify-center mb-5 md:flex-row-reverse gap-y-4">
+        <div className="flex flex-col items-center justify-center mb-5 md:flex-row-reverse ">
           <div className="flex items-center justify-center w-11/12 lg:w-8/12">
             <img src={img4} alt="" className="w-11/12 max-w-lg md:w-10/12" />
           </div>
@@ -66,7 +66,7 @@ export default function Hero2() {
           </div>
         </div>
         {/* .............................. */}
-        <div className="flex flex-col items-center justify-center mb-5 md:flex-row gap-y-4">
+        <div className="flex flex-col items-center justify-center mb-5 md:flex-row ">
           <div className="flex items-center justify-center w-11/12 lg:w-8/12">
             <img src={img5} alt="" className="w-11/12 max-w-lg md:w-10/12" />
           </div>
@@ -85,7 +85,7 @@ export default function Hero2() {
           </div>
         </div>
         {/* .............................. */}
-        <div className="flex flex-col items-center justify-center mb-5 md:flex-row-reverse gap-y-4">
+        <div className="flex flex-col items-center justify-center mb-5 md:flex-row-reverse ">
           <div className="flex items-center justify-center w-11/12 lg:w-8/12">
             <img src={img6} alt="" className="w-11/12 max-w-lg md:w-10/12" />
           </div>
@@ -104,7 +104,7 @@ export default function Hero2() {
           </div>
         </div>
         {/* .............................. */}
-        <div className="flex flex-col items-center justify-center mb-5 md:flex-row gap-y-4">
+        <div className="flex flex-col items-center justify-center mb-5 md:flex-row ">
           <div className="flex items-center justify-center w-11/12 lg:w-8/12">
             <img src={img7} alt="" className="w-11/12 max-w-lg md:w-10/12" />
           </div>
