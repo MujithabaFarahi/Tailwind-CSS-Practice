@@ -17,34 +17,34 @@ export default function Navbar() {
               <Logo />
             </div>
           </a>
-          <div className="items-center hidden space-x-5 text-xs md:flex barlow-bold-italic">
+          <div className="items-center hidden space-x-5 text-xs lg:text-sm md:flex barlow-bold-italic">
             <a
               href="#learning-paths"
-              className=" hover:underline hover:underline-offset-8 hover:text-red-500"
+              className=" hover:underline hover:underline-offset-8 decoration-red-500"
             >
               LEARNING PATHS
             </a>
             <a
               href="#challenges"
-              className=" hover:underline hover:underline-offset-8 hover:text-red-500"
+              className=" hover:underline hover:underline-offset-8 hover:decoration-red-500"
             >
               CHALLENGES
             </a>
             <a
               href="#solutions"
-              className="hover:underline hover:underline-offset-8 hover:text-red-500"
+              className="hover:underline hover:underline-offset-8 hover:decoration-red-500"
             >
               SOLUTIONS
             </a>
             <a
               href="#articles"
-              className=" hover:underline hover:underline-offset-8 hover:text-red-500"
+              className=" hover:underline hover:underline-offset-8 hover:decoration-red-500"
             >
               ARTICLES
             </a>
             <a
               href="#unlock-pro"
-              className=" hover:underline hover:underline-offset-8 hover:text-red-500"
+              className=" hover:underline hover:underline-offset-8 hover:decoration-red-500"
             >
               UNLOCK PRO
             </a>
@@ -84,31 +84,31 @@ export default function Navbar() {
         <div className="md:hidden">
           <a
             href="#learning-paths"
-            className="block px-4 py-2 hover:underline hover:text-red-500"
+            className="block px-4 py-2 hover:underline hover:decoration-red-500"
           >
             LEARNING PATHS
           </a>
           <a
             href="#challenges"
-            className="block px-4 py-2 hover:underline hover:text-red-500"
+            className="block px-4 py-2 hover:underline hover:decoration-red-500"
           >
             CHALLENGES
           </a>
           <a
             href="#solutions"
-            className="block px-4 py-2 hover:underline hover:text-red-500"
+            className="block px-4 py-2 hover:underline hover:decoration-red-500"
           >
             SOLUTIONS
           </a>
           <a
             href="#articles"
-            className="block px-4 py-2 hover:underline hover:text-red-500"
+            className="block px-4 py-2 hover:underline hover:decoration-red-500"
           >
             ARTICLES
           </a>
           <a
             href="#unlock-pro"
-            className="block px-4 py-2 hover:underline hover:text-red-500"
+            className="block px-4 py-2 hover:underline hover:decoration-red-500"
           >
             UNLOCK PRO
           </a>

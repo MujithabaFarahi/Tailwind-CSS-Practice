@@ -1,20 +1,22 @@
 import React from 'react';
 import img from '../assets/images/img1.webp';
 import img2 from '../assets/images/img2.webp';
+import jessica from '../assets/images/jessica.jpeg';
+import kevin from '../assets/images/kevin.jpeg';
 import TestimonialCard from './TestimonialCard';
 
 export default function Hero() {
   return (
     <div className="">
-      <div className="flex flex-col items-center justify-center mt-10 md:flex-row lg:gap-x-16 gap-y-10">
-        <div className="max-w-xl p-5 md:w-8/12 lg:w-5/12">
+      <div className="flex flex-col items-center justify-start mt-10 md:flex-row gap-y-10 gap-x-5 xl:justify-around ">
+        <div className=" md:w-[500px]  p-2   md:flex-shrink-0 md:ml-3  lg:w-[540px]">
           <div className="text-center md:text-start">
-            <p className="font-serif text-5xl text-customBlue">
+            <p className="font-serif text-5xl text-customBlue ">
               Improve your coding skills by building realistic projects
             </p>
           </div>
-          <div className="mt-10">
-            <p className="text-center text-gray-500 md:text-start">
+          <div className="mt-10 lg:text-lg">
+            <p className="text-lg text-center text-gray-500 md:text-justify">
               Our professionally designed challenges help you gain hands-on
               experience writing HTML, CSS, and JavaScript. We create the
               designs so you can focus on the code and see your skills
@@ -22,8 +24,8 @@ export default function Hero() {
             </p>
           </div>
           <div className="flex justify-center md:justify-start">
-            <button className="flex items-center px-6 py-2 mt-10 text-white barlow-bold-italic bg-rose-600 rounded-3xl hover:bg-rose-700">
-              Login with GitHub
+            <button className="flex px-6 py-2 mt-10 text-white barlow-bold-italic bg-rose-600 rounded-3xl hover:bg-rose-700">
+              LOG IN WITH GITHUB
               <i class="fab fa-github ml-3 text-lg"> </i>
             </button>
           </div>
@@ -42,27 +44,20 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="flex max-w-xl md:w-4/12 lg:w-7/12">
-          <div className="">
-            <img src={img} alt="img"></img>
-          </div>
+        <div className="flex-shrink-0 md:overflow-hidden max-w-none">
+          <img
+            src={img}
+            alt="img"
+            className=" md:max-h-[564px] xl:max-h-[600px] "
+            // style={{ objectFit: 'cover' }}
+          ></img>
         </div>
-        {/* <div className="flex max-w-xl bg-gray-300 md:w-4/12 lg:w-7/12">
-          <div className="w-full h-full md:h-auto md:flex md:items-stretch">
-            <img
-              src={img}
-              alt="img"
-              className="object-cover w-full h-full md:h-auto"
-              style={{ objectFit: 'cover' }}
-            />
-          </div>
-        </div> */}
       </div>
       <div className="flex flex-col items-center justify-center lg:flex-row ">
         <TestimonialCard
           name="Kevin Powell"
           role="Web Developer & YouTuber"
-          img={img2}
+          img={kevin}
           message="I highly recommend Frontend Mentor. Skip the search for project
             ideas and dive into ready-made challenges that help you level up as
             a developer."
@@ -70,7 +65,7 @@ export default function Hero() {
         <TestimonialCard
           name="Jessica Chan"
           role="Web Developer & YouTuber"
-          img={img2}
+          img={jessica}
           message="Frontend Mentor is a win-win. You can sharpen your skills building websites and add finished projects to your portfolio to help land a job!"
         />
       </div>
