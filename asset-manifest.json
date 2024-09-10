@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Tailwind-CSS-Practice/static/css/main.860066f5.css",
-    "main.js": "/Tailwind-CSS-Practice/static/js/main.df863e7b.js",
+    "main.css": "/Tailwind-CSS-Practice/static/css/main.edeca80b.css",
+    "main.js": "/Tailwind-CSS-Practice/static/js/main.f787c26c.js",
     "static/js/453.22c9628e.chunk.js": "/Tailwind-CSS-Practice/static/js/453.22c9628e.chunk.js",
     "static/media/img10.png": "/Tailwind-CSS-Practice/static/media/img10.8a718c66805e79c9a496.png",
     "static/media/img8.png": "/Tailwind-CSS-Practice/static/media/img8.d9b470dd1dba97ffff38.png",
@@ -10,6 +10,7 @@
     "static/media/img11.webp": "/Tailwind-CSS-Practice/static/media/img11.97eaf8b23c7bd9e8f624.webp",
     "static/media/img1.webp": "/Tailwind-CSS-Practice/static/media/img1.72aea7f05d324707a97d.webp",
     "static/media/img4.webp": "/Tailwind-CSS-Practice/static/media/img4.8ed4d1713abd7fe52bed.webp",
+    "static/media/img12.webp": "/Tailwind-CSS-Practice/static/media/img12.b312c20dd22e589e8c49.webp",
     "static/media/img7.webp": "/Tailwind-CSS-Practice/static/media/img7.f99219d7e4121e904674.webp",
     "static/media/img3.webp": "/Tailwind-CSS-Practice/static/media/img3.8ccfe86abe304f120861.webp",
     "static/media/img5.webp": "/Tailwind-CSS-Practice/static/media/img5.acee578393476349cba7.webp",
@@ -23,12 +24,12 @@
     "index.html": "/Tailwind-CSS-Practice/index.html",
     "static/media/figma-icon.svg": "/Tailwind-CSS-Practice/static/media/figma-icon.5e4e412e5cf9f10005eb698579febc6d.svg",
     "static/media/logo-mobile.svg": "/Tailwind-CSS-Practice/static/media/logo-mobile.85bd04c489b50d80ec85f663a322c4ef.svg",
-    "main.860066f5.css.map": "/Tailwind-CSS-Practice/static/css/main.860066f5.css.map",
-    "main.df863e7b.js.map": "/Tailwind-CSS-Practice/static/js/main.df863e7b.js.map",
+    "main.edeca80b.css.map": "/Tailwind-CSS-Practice/static/css/main.edeca80b.css.map",
+    "main.f787c26c.js.map": "/Tailwind-CSS-Practice/static/js/main.f787c26c.js.map",
     "453.22c9628e.chunk.js.map": "/Tailwind-CSS-Practice/static/js/453.22c9628e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.860066f5.css",
-    "static/js/main.df863e7b.js"
+    "static/css/main.edeca80b.css",
+    "static/js/main.f787c26c.js"
   ]
 }
