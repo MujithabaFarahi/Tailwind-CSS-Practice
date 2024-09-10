@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <div className="">
       <div className="flex flex-col items-center justify-start mt-10 overflow-hidden md:flex-row gap-y-10 gap-x-5 xl:justify-center">
-        <div className=" md:w-[500px]  p-2   md:flex-shrink-0 md:ml-3  lg:w-[540px]">
+        <div className=" md:w-[500px]  p-2   md:flex-shrink-0 md:ml-3 xl:ml-12  ">
           <div className="text-center md:text-start">
             <p className="font-serif text-5xl text-customBlue font-barlow">
               Improve your coding skills by building realistic projects
@@ -48,7 +48,7 @@ export default function Hero() {
           <img
             src={img}
             alt="img"
-            className=" md:max-h-[564px] xl:max-h-[600px] "
+            className=" md:max-h-[564px]  "
             // style={{ objectFit: 'cover' }}
           ></img>
         </div>

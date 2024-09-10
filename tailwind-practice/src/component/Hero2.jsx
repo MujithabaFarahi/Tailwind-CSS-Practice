@@ -26,9 +26,9 @@ export default function Hero2() {
         </div>
       </div>
       {/*------------------------------- Section 2 -------------------------------*/}
-      <div className="flex flex-col items-center justify-center px-2 py-10 mt-20 bg-gray-200 gap-y-10 ">
+      <div className="flex flex-col items-center justify-center px-2 py-10 mt-20  gap-y-10 ">
         {/* <div> */}
-        <div className="flex flex-col items-center justify-center mb-5 md:flex-row ">
+        <div className="flex flex-col items-center justify-center mb-5 md:flex-row gap-y-12">
           <div className="flex items-center justify-center w-11/12 lg:w-8/12">
             <img src={img3} alt="" className="w-11/12 max-w-lg md:w-10/12" />
           </div>
@@ -118,7 +118,10 @@ export default function Hero2() {
             <div className="text-center text-gray-500 text md:text-start lg:w-10/12 xl:w-9/12">
               <span>We have a </span>
               <span>
-                <a href="#m" className="hover:underline hover:cursor-pointer">
+                <a
+                  href="#m"
+                  className="underline hover:cursor-pointer hover:decoration-transparent"
+                >
                   Hiring Platform{' '}
                 </a>
               </span>
