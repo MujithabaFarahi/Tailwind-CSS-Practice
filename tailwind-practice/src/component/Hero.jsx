@@ -45,12 +45,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex-shrink-0 md:overflow-hidden max-w-none">
-          <img
-            src={img}
-            alt="img"
-            className=" md:max-h-[564px]  "
-            // style={{ objectFit: 'cover' }}
-          ></img>
+          <img src={img} alt="img" className=" md:max-h-[564px]  "></img>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center my-12 lg:flex-row">
