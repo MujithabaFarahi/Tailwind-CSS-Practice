@@ -6,7 +6,7 @@ import img10 from '../assets/images/img10.png';
 import img11 from '../assets/images/img11.webp';
 
 export default function Hero3() {
-  const [selectedImage, setSelectedImage] = useState(img9);
+  const [selectedImage, setSelectedImage] = useState(img8);
   const [selectedTile, setSelectedTile] = useState(1);
 
   const selectTile = (tileNumber, image) => {

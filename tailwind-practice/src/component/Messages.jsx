@@ -214,9 +214,9 @@ export default function Messages() {
         </button>
         <button
           onClick={handleNextClick}
-          disabled={currentIndex + 3 >= messages.length}
+          disabled={currentIndex + 2 >= messages.length}
           className={`h-16 w-16 rounded-full bg-customBlue flex items-center justify-center ${
-            currentIndex + 3 >= messages.length
+            currentIndex + 2 >= messages.length
               ? 'bg-gray-600 cursor-not-allowed'
               : 'hover:bg-blue-700'
           }`}

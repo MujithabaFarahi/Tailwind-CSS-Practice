@@ -10,17 +10,21 @@ import { ReactComponent as ProductHunt } from '../assets/svg/logo-product-hunt.s
 
 export default function Hero2() {
   return (
-    <div className="mx-auto my-5 bg-gray-50">
+    <div className="mx-auto py-5 bg-gray-50">
       <div className="flex flex-col items-center justify-center">
-        <div className="py-8 font-extrabold heebo">AS FEATURED ON...</div>
-        <div className="flex flex-col items-center justify-center w-full px-3 gap-y-3 gap-x-3 md:flex-row ">
-          <div className="flex items-center justify-center w-full h-20 px-4 bg-white border-2 border-gray-400 rounded-lg md:h-28 md:w-80 lg:w-96">
-            <CSSPractice />
+        <div className="py-8 text-sm md:text-base font-extrabold heebo">
+          AS FEATURED ON...
+        </div>
+        <div className="flex  flex-col items-center justify-center w-full px-3 gap-y-3 gap-x-3 md:flex-row ">
+          <div className="flex items-center justify-center w-full h-20 px-4 bg-white border-2 border-gray-400 rounded-lg lg:h-28  lg:w-96">
+            <div className="">
+              <CSSPractice />
+            </div>
           </div>
-          <div className="flex items-center justify-center w-full h-20 px-4 bg-white border-2 border-gray-400 rounded-lg md:h-28 md:w-80 lg:w-96 ">
+          <div className="flex items-center justify-center w-full h-20 px-4 bg-white border-2 border-gray-400 rounded-lg lg:h-28  lg:w-96 ">
             <StackOverflow />
           </div>
-          <div className="flex items-center justify-center w-full h-20 px-4 bg-white border-2 border-gray-400 rounded-lg md:h-28 md:w-80 lg:w-96 ">
+          <div className="flex items-center justify-center w-full h-20 px-4 bg-white border-2 border-gray-400 rounded-lg lg:h-28  lg:w-96 ">
             <ProductHunt />
           </div>
         </div>
@@ -36,10 +40,10 @@ export default function Hero2() {
             <div className="flex items-center justify-center w-16 h-16 bg-gray-200 rounded-full">
               <div className="text-3xl">😈</div>
             </div>
-            <div className="my-4 text-4xl font-semibold text-center md:text-start lg:w-10/12 xl:w-9/12">
+            <div className="my-4 text-4xl font-semibold max-w-lg text-center md:text-start">
               Escape tutorial hell
             </div>
-            <div className="text-center text-gray-500 text md:text-start lg:w-10/12 xl:w-9/12">
+            <div className="text-center max-w-lg text-gray-500 text md:text-start ">
               Add projects to your learning journey and put your knowledge to
               the test. The real learning happens when you start solving
               real-world problems yourself.

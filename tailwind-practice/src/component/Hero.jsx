@@ -8,16 +8,16 @@ import TestimonialCard from './TestimonialCard';
 export default function Hero() {
   return (
     <div className="">
-      <div className="flex flex-col items-center justify-start mt-10 overflow-hidden md:flex-row gap-y-10 gap-x-5 xl:justify-center">
-        <div className=" md:w-[500px]  p-2   md:flex-shrink-0 md:ml-3 xl:ml-12  ">
+      <div className="flex flex-col items-center justify-start mt-10 lg:mt-20 overflow-hidden md:flex-row gap-y-10 gap-x-5 xl:justify-center">
+        <div className=" md:max-w-[560px]  p-2   md:flex-shrink-0 md:ml-3 xl:ml-12  ">
           <div className="text-center md:text-start">
-            <p className="font-serif text-5xl text-customBlue font-barlow">
+            <p className="font-serif tracking-wide text-5xl text-customBlue font-barlow">
               Improve your coding skills by building realistic projects
             </p>
           </div>
           <div className="mt-10 lg:text-lg">
             <p className="text-lg text-center text-gray-500 md:text-justify heebo">
-              Our professionally designed challenges help you gain hands-on
+              Our professionally designed challenges help you gain hands on
               experience writing HTML, CSS, and JavaScript. We create the
               designs so you can focus on the code and see your skills
               skyrocket!
@@ -48,9 +48,9 @@ export default function Hero() {
           <img src={img} alt="img" className=" md:max-h-[564px]  "></img>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center my-12 lg:flex-row">
+      <div className="flex flex-col  items-center justify-center lg:pt-6 my-16 lg:flex-row lg: gap-y-4">
         <TestimonialCard
-          name="Kevin Powell"
+          name="KEVIN POWELL"
           role="Web Developer & YouTuber"
           img={kevin}
           message="I highly recommend Frontend Mentor. Skip the search for project
@@ -58,7 +58,7 @@ export default function Hero() {
             a developer."
         />
         <TestimonialCard
-          name="Jessica Chan"
+          name="JESSICA CHAN"
           role="Web Developer & YouTuber"
           img={jessica}
           message="Frontend Mentor is a win-win. You can sharpen your skills building websites and add finished projects to your portfolio to help land a job!"

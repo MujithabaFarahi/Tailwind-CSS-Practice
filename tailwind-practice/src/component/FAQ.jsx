@@ -99,11 +99,11 @@ export default function FAQ() {
             }
           />
         </div>
-        <div className="flex flex-col items-center justify-center mt-8 py-8">
+        <div className="flex flex-col items-center justify-center mt-8 py-8 max-w-2xl mx-auto">
           <h1 className="text-center text-5xl text-customBlue font-barlow">
             Join 889,140 people building portfolio-worthy projects
           </h1>
-          <p className="text-center text-lg text-gray-600 heebo my-8">
+          <p className="text-center text-gray-600 heebo my-8">
             Our highly supportive, positive community is here to help you
             improve your skills. We all try to help each other out wherever
             possible. We’d love to welcome you to our community!

@@ -3,9 +3,9 @@ import img from '../assets/images/img12.webp';
 
 export default function ImageContainer() {
   return (
-    <div className="bg-customBlue">
-      <div className="max-w-screen-2xl flex flex-col pt-10 px-5 gap-y-16 items-center justify-between lg:flex-row lg:justify-around">
-        <div className="text-white text-center lg:text-left max-w-xl">
+    <div className="bg-customBlue flex justify-center">
+      <div className="max-w-screen-xl flex flex-col pt-10 px-5 gap-y-16 items-center justify-between lg:flex-row lg:justify-around ">
+        <div className="text-white text-center lg:text-left max-w-2xl">
           <div className="font-barlow text-4xl">
             Are you looking to hire talented, passionate developers?
           </div>
@@ -18,7 +18,7 @@ export default function ImageContainer() {
             START HIRING DEVELOPERS
           </button>
         </div>
-        <div className="max-w-xl">
+        <div className="max-w-lg ">
           <img src={img} alt="img" className=""></img>
         </div>
       </div>

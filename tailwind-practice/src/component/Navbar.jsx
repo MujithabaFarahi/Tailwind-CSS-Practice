@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-transparent ">
-      <div className="px-1 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+      <div className="px-1 mx-auto max-w-screen-2xl sm:px-6 lg:px-12">
         <div className="flex items-center justify-between h-16">
           <a href="/">
             <div className=" lg:hidden">
