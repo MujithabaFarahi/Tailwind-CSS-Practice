@@ -1,27 +1,34 @@
 {
   "files": {
-    "main.css": "/Tailwind-CSS-Practice/static/css/main.c20652c5.css",
-    "main.js": "/Tailwind-CSS-Practice/static/js/main.cf1792f5.js",
+    "main.css": "/Tailwind-CSS-Practice/static/css/main.860066f5.css",
+    "main.js": "/Tailwind-CSS-Practice/static/js/main.df863e7b.js",
     "static/js/453.22c9628e.chunk.js": "/Tailwind-CSS-Practice/static/js/453.22c9628e.chunk.js",
+    "static/media/img10.png": "/Tailwind-CSS-Practice/static/media/img10.8a718c66805e79c9a496.png",
+    "static/media/img8.png": "/Tailwind-CSS-Practice/static/media/img8.d9b470dd1dba97ffff38.png",
     "static/media/img6.webp": "/Tailwind-CSS-Practice/static/media/img6.a1e2c9d11c295c8ff038.webp",
+    "static/media/img9.png": "/Tailwind-CSS-Practice/static/media/img9.3e6eb90efef2072ab624.png",
+    "static/media/img11.webp": "/Tailwind-CSS-Practice/static/media/img11.97eaf8b23c7bd9e8f624.webp",
     "static/media/img1.webp": "/Tailwind-CSS-Practice/static/media/img1.72aea7f05d324707a97d.webp",
     "static/media/img4.webp": "/Tailwind-CSS-Practice/static/media/img4.8ed4d1713abd7fe52bed.webp",
     "static/media/img7.webp": "/Tailwind-CSS-Practice/static/media/img7.f99219d7e4121e904674.webp",
     "static/media/img3.webp": "/Tailwind-CSS-Practice/static/media/img3.8ccfe86abe304f120861.webp",
     "static/media/img5.webp": "/Tailwind-CSS-Practice/static/media/img5.acee578393476349cba7.webp",
+    "static/media/nuel.png": "/Tailwind-CSS-Practice/static/media/nuel.ee3ca1966dbb5246530d.png",
     "static/media/img2.webp": "/Tailwind-CSS-Practice/static/media/img2.0120226dcaf4e67163dc.webp",
     "static/media/logo.svg": "/Tailwind-CSS-Practice/static/media/logo.0b167fe4d6046b89d949a798ce9aec6a.svg",
     "static/media/logo-css-tricks.svg": "/Tailwind-CSS-Practice/static/media/logo-css-tricks.1120a8b298962fc54964ad70c6966db3.svg",
     "static/media/logo-stack-overflow.svg": "/Tailwind-CSS-Practice/static/media/logo-stack-overflow.9cb27b2fc11f40c4a8c8b9f83bc2abe4.svg",
     "static/media/logo-product-hunt.svg": "/Tailwind-CSS-Practice/static/media/logo-product-hunt.ea302dae66a1d5898f09b4b1e0758942.svg",
+    "static/media/star.svg": "/Tailwind-CSS-Practice/static/media/star.d9fa9731ee7c8aad7f95d5e3b8ec2f9b.svg",
     "index.html": "/Tailwind-CSS-Practice/index.html",
+    "static/media/figma-icon.svg": "/Tailwind-CSS-Practice/static/media/figma-icon.5e4e412e5cf9f10005eb698579febc6d.svg",
     "static/media/logo-mobile.svg": "/Tailwind-CSS-Practice/static/media/logo-mobile.85bd04c489b50d80ec85f663a322c4ef.svg",
-    "main.c20652c5.css.map": "/Tailwind-CSS-Practice/static/css/main.c20652c5.css.map",
-    "main.cf1792f5.js.map": "/Tailwind-CSS-Practice/static/js/main.cf1792f5.js.map",
+    "main.860066f5.css.map": "/Tailwind-CSS-Practice/static/css/main.860066f5.css.map",
+    "main.df863e7b.js.map": "/Tailwind-CSS-Practice/static/js/main.df863e7b.js.map",
     "453.22c9628e.chunk.js.map": "/Tailwind-CSS-Practice/static/js/453.22c9628e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c20652c5.css",
-    "static/js/main.cf1792f5.js"
+    "static/css/main.860066f5.css",
+    "static/js/main.df863e7b.js"
   ]
 }
