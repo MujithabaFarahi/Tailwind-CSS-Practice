@@ -6,9 +6,9 @@ const TestimonialCard = ({ name, role, img, message }) => {
       <div className="my-3 text-6xl text-center text-gray-200">
         <i className="fa fa-quote-left" aria-hidden="true"></i>
       </div>
-      <p className="text-center text-xl">{message}</p>
+      <p className="text-center text-lg lg:text-xl my-8">{message}</p>
       <div className="flex flex-col  items-center justify-center w-full my-3">
-        <img src={img} alt={name} className="w-16 h-16 my-2 rounded-full" />
+        <img src={img} alt={name} className="w-20 h-20 my-2 rounded-full" />
         <p className="font-bold tracking-widest text-customBlue mt-3">{name}</p>
         <p className="text-gray-500 text-sm">{role}</p>
       </div>

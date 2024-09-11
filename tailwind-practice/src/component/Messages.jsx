@@ -108,7 +108,9 @@ export default function Messages() {
   return (
     <div className="mx-auto heebo max-w-screen-xl">
       <div className="flex items-center mb-6 mx-4">
-        <p className="text-4xl flex-1">A little ❤️ from our community</p>
+        <p className="text-4xl lg:text-[42px]">
+          A little ❤️ from our community
+        </p>
         <div className="hidden md:flex gap-x-3 flex-1 justify-end">
           <button
             onClick={handlePrevClick}
@@ -152,7 +154,7 @@ export default function Messages() {
               x: { type: 'spring', stiffness: 200, damping: 40 },
               opacity: { duration: 0.2 },
             }}
-            className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 justify-items-center justify-center"
+            className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 justify-items-center justify-center"
           >
             {messages
               .slice(currentIndex, currentIndex + 3)
@@ -181,7 +183,7 @@ export default function Messages() {
               x: { type: 'spring', stiffness: 200, damping: 40 },
               opacity: { duration: 0.2 },
             }}
-            className="grid  gap-8 grid-cols-2  justify-items-center justify-center"
+            className="grid gap-4 grid-cols-2  justify-items-center justify-center"
           >
             {messages
               .slice(currentIndex, currentIndex + 2)

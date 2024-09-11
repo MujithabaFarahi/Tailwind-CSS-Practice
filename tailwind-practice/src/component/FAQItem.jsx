@@ -13,7 +13,7 @@ export default function FAQItem({ question, answer }) {
         onClick={toggleFAQ}
         className="flex m-5 px-3 items-center cursor-pointer justify-between gap-x-3 font-barlow"
       >
-        <h3 className="text-lg font-semibold text-black">{question}</h3>
+        <h3 className="lg:text-lg font-semibold text-black">{question}</h3>
         <div>
           <i className={`fa ${isOpen ? 'fa-minus' : 'fa-plus'} text-lg`}></i>
         </div>
@@ -22,7 +22,7 @@ export default function FAQItem({ question, answer }) {
       {isOpen && (
         <div>
           <hr className="border-t border-gray-200" />
-          <div className="m-5 px-3 heebo text-gray-500">{answer}</div>
+          <div className="m-5 lg:text-l px-4 heebo text-gray-500">{answer}</div>
         </div>
       )}
     </div>
